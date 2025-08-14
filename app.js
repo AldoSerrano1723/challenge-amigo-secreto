@@ -17,3 +17,8 @@ function agregarAmigo() {
     }
     document.getElementById("amigo").value = "";
 }
+function actualizaListaAmigos() {
+    
+}
+
+// ---------------------------------------------------
