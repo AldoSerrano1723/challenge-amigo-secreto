@@ -7,9 +7,12 @@ let listaDeAmigos = [];
 // funcion para el boton añadir - añade un amigo a la lista de listaDeAmigos
 function agregarAmigo() {
     let nombreAmigo = document.getElementById("amigo").value;
-    console.log(nombreAmigo);
-    console.log(listaDeAmigos);
-    listaDeAmigos.push(nombreAmigo);
-    console.log(listaDeAmigos);
+    console.log(typeof(nombreAmigo));
+    // verifica si esta vacio la variable nombreAmigo o no
+    if (nombreAmigo === "") {
+        alert("Por favor, inserte un nombre");
+    } else {
+        listaDeAmigos.push(nombreAmigo);
+        console.log(listaDeAmigos);
+    }
 }
-
