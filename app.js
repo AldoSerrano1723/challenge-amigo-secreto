@@ -15,4 +15,5 @@ function agregarAmigo() {
         listaDeAmigos.push(nombreAmigo);
         console.log(listaDeAmigos);
     }
+    document.getElementById("amigo").value = "";
 }
