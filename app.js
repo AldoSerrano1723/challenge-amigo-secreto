@@ -17,12 +17,9 @@ function agregarAmigo() {
         listaDeAmigos.push(nombreAmigo);
         console.log(listaDeAmigos);
     }
-    
+
     // limpio el input
     document.getElementById("amigo").value = "";
-    
-    // aqui muestra la lista de los amigos que vayas agregando
-    mostrarListaDeAmigos();
 }
 
 // funcion para mostrar en pantalla a los amigos que agregas a tu lista 
