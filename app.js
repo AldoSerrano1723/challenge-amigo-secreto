@@ -13,9 +13,13 @@ function agregarAmigo() {
     // verifica si esta vacio la variable nombreAmigo o no
     if (nombreAmigo === "") {
         alert("Por favor, inserte un nombre");
-    } else {
-        listaDeAmigos.push(nombreAmigo);
-        console.log(listaDeAmigos);
+    }else{
+        if (listaDeAmigos.includes(nombreAmigo) == true) {
+            alert(`El nombre ${nombreAmigo}, ya esta añadido`)
+        }else {
+            listaDeAmigos.push(nombreAmigo);
+            console.log(listaDeAmigos);
+        }
     }
 
     // limpio el input
@@ -38,6 +42,21 @@ function mostrarListaDeAmigos() {
         nuevoElemento.textContent = amigo;
         listaDeAmigosHtml.appendChild(nuevoElemento);
     });
+}
+
+// funcion para elegir a un amigo de la lista de amgigos de manera aleatoria
+function sortearAmigo() {
+    let numeroDeAmigos = listaDeAmigos.length;
+    let numAleatorio = 0;
+    let mostrarResultado;
+
+    if (numeroDeAmigos < 3) {
+        alert("Por favor, inserte mas nombres, minimo 3");
+    } else {
+        numAleatorio = Math.floor(Math.random() * numeroDeAmigos);
+        mostrarResultado = document.getElementById("resultado");
+        mostrarResultado.innerHTML = `El amigo secreto es: ${listaDeAmigos[numAleatorio]}`
+    }
 }
 
 // ---------------------------------------------------
