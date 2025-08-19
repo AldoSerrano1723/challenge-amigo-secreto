@@ -69,7 +69,7 @@ Ejemplo de uso:
 Este proyecto está bajo la licencia **MIT**.  
 Esto significa que puedes usar, modificar y distribuir el código de forma libre, siempre y cuando se mantenga el aviso de licencia y derechos de autor.  
 
-Para más detalles consulta el archivo [LICENSE](LICENSE).
+Para más detalles consulta el archivo [LICENSE](https://mit-license.org/).
 
 ## 👨‍💻 Autor
 
