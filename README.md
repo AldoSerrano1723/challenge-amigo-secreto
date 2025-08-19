@@ -3,30 +3,16 @@
 
 ## Insignias
 <p align="left">
-<img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
+<img src="https://img.shields.io/badge/STATUS-%20AGOSTO-green">
 </p>
 
 ![GitHub Org's stars](https://img.shields.io/github/stars/camilafernanda?style=social)
 
-## Indice
-* [Insignias](#Insignias)
-* [Índice](#Indice)
-* [Descripción del proyecto](#Descripción-del-proyecto)
-* [Estado del proyecto](#Estado-del-proyecto)
-* [Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
-* [Acceso al proyecto](#acceso-proyecto)
-* [Tecnologías utilizadas](#tecnologías-utilizadas)
-* [Personas Contribuyentes](#personas-contribuyentes)
-* [Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
-* [Licencia](#licencia)
-* [Conclusión](#conclusión)
 
 ## Descripcion del proyecto
 ¿Necesitas elegir a alguien de forma justa y rápida? 🎲
 Este programa te permite ingresar una lista de nombres y obtener un ganador seleccionado al azar. Ideal para rifas, sorteos, dinámicas de equipo o cualquier actividad donde se requiera un resultado imparcial.
 
-## Estado del proyecto
-🚧 Proyecto en construcción 🚧
 
 ## :hammer: Características de la aplicación y demostración
 ### 🚀 Funcionalidades
@@ -58,9 +44,35 @@ Ejemplo de uso:
 
 ![gif-amigo-secreto](https://github.com/user-attachments/assets/51d70518-02ce-4f38-941f-ade6b32cddc4)
 
-## Acceso al proyecto
-### 📁
-[Repositorio](https://github.com/AldoSerrano1723/challenge-amigo-secreto.git)
+## 📂Acceso al proyecto
 
-### 🛠️ Abre y ejecuta el proyecto
+1. Clona este repositorio en tu máquina local:
+   ```bash
+   git clone https://github.com/AldoSerrano1723/challenge-amigo-secreto.git
+   cd challenge-amigo-secreto
+
+## :globe_with_meridians: Demo
 **Muestra las instrucciones necesarias para abrir y ejecutar el proyecto**
+
+## 🛠️Tecnologías utilizadas
+
+- HTML5 → Estructura de la aplicación.
+
+- CSS3 → Estilos y diseño visual.
+
+- JavaScript (ES6+) → Lógica del sorteo y validaciones.
+
+- Git & GitHub → Control de versiones y repositorio.
+
+## 📜 Licencia
+
+Este proyecto está bajo la licencia **MIT**.  
+Esto significa que puedes usar, modificar y distribuir el código de forma libre, siempre y cuando se mantenga el aviso de licencia y derechos de autor.  
+
+Para más detalles consulta el archivo [LICENSE](LICENSE).
+
+## 👨‍💻 Autor
+
+Proyecto desarrollado por **Aldo Serrano**.  
+- 💼 GitHub: [AldoSerrano1723](https://github.com/AldoSerrano1723)    
+
