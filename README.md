@@ -52,7 +52,7 @@ Ejemplo de uso:
    cd challenge-amigo-secreto
 
 ## :globe_with_meridians: Demo
-(https://aldoserrano1723.github.io/challenge-amigo-secreto/)
+[Amigo Secreto](https://aldoserrano1723.github.io/challenge-amigo-secreto/)
 
 ## 🛠️Tecnologías utilizadas
 
