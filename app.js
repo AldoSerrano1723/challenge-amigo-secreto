@@ -8,7 +8,6 @@ let listaDeAmigos = [];
 function agregarAmigo() {
     // aqui obtengo el contenido del input
     let nombreAmigo = document.getElementById("amigo").value;
-    console.log(typeof(nombreAmigo));
     
     // verifica si esta vacio la variable nombreAmigo o no
     if (nombreAmigo === "") {
@@ -18,7 +17,6 @@ function agregarAmigo() {
             alert(`El nombre ${nombreAmigo}, ya esta añadido`)
         }else {
             listaDeAmigos.push(nombreAmigo);
-            console.log(listaDeAmigos);
         }
     }
 
